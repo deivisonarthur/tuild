@@ -28,3 +28,7 @@ You can use Tuild via script language (NodeJS)... but i not documented this :P.
 #### Dependencies
 
 Tuild need JSHint(<https://github.com/jshint/jshint>) and UglifyJS(<https://github.com/mishoo/UglifyJS>) to work completely. So you need this in you npm packages, if you download this module directly.
+
+#### License
+
+MIT and GPL License - <http://www.opensource.org/licenses/mit-license.php> || <http://www.gnu.org/licenses/gpl.html>
