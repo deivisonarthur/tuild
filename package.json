@@ -6,15 +6,15 @@
     "homepage": "https://github.com/mateus007/tuild",  
     "author": "Mateus Souza <mateussouzaweb@gmail.com> (http://twitter.com/mateus_souzaweb)",
      
-    "main": "tuild",
-    "bin": "./bin/tuild",   
+    "main": "./lib/tuild.js",
+    "bin": "./bin/tuild", 
     "repository": {
         "type" : "git",
         "url" : "git://github.com/mateus007/tuild.git"
     },
     
-    "dependencies": {
-        "jshint": "*",
-        "uglify-js": "https://github.com/mishoo/UglifyJS/tarball/master" 
-    }
+	"dependencies": {
+		"jshint": "*",
+		"uglify-js": "*" 
+	}
 }
