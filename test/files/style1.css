@@ -1,0 +1,20 @@
+/*!
+ * Comment Preserved
+ */
+body{
+	background: #FFF !important;
+}
+
+/*Comment*/
+elem,
+object, input{
+	display: block;
+	border: rgb(225, 255, 222);
+}
+
+div{
+	border: #FFF 10px solid;
+	margin: 10px 0;
+	display: block;
+	float: left;
+}

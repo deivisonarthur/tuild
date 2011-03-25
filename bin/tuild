@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require('tuild')
+	.Tuild.command(process.argv.slice(2).join(' '));
