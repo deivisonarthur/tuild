@@ -1,7 +1,7 @@
 # Tuild
 A easy and advanced build/minifier for JS, CSS and HTML.
 
-#### Installing
+### Installing
 
 Type in terminal, with root privileges:
 
@@ -9,7 +9,7 @@ Type in terminal, with root privileges:
 
 Just that!
 
-#### Usage
+### Usage
 Open the terminal in your aplication and type:
 	tuild -h
 	
@@ -25,10 +25,10 @@ Now read the help... Some examples:
 
 You can use Tuild via script language (NodeJS)... but i not documented this :P.
 	
-#### Dependencies
+### Dependencies
 
 Tuild need JSHint(<https://github.com/jshint/jshint>) and UglifyJS(<https://github.com/mishoo/UglifyJS>) to work completely. So you need this in you npm packages, if you download this module directly.
 
-#### License
+### License
 
 MIT and GPL License - <http://www.opensource.org/licenses/mit-license.php> || <http://www.gnu.org/licenses/gpl.html>
