@@ -21,13 +21,13 @@ Now read the help... Some examples:
 	
 	tuild html -dev header.html|content.html|footer.html > page.html # This works like a template, but join all in one file :)
 	
-	tuild js --watch folder/ > scripts.min.js # Watch the folder and automatic update the scripts.min.js, when any changes are made
+	tuild js --watch folder/ scripts.min.js # Watch the folder and automatic update the scripts.min.js, when any changes are made
 
-You can use Tuild via script language (NodeJS)... but i not documented this :P.
+You can use Tuild via script language (NodeJS)... but I will not document this :P.
 	
 ### Dependencies
 
-Tuild need JSHint(<https://github.com/jshint/jshint>) and UglifyJS(<https://github.com/mishoo/UglifyJS>) to work completely. So you need this in you npm packages, if you download this module directly.
+Tuild need JSHint (<https://github.com/jshint/jshint>) and UglifyJS (<https://github.com/mishoo/UglifyJS>) to work completely. So you need this in you npm packages, if you download this module directly.
 
 ### License
 
