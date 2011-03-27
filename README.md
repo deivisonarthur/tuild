@@ -17,9 +17,9 @@ Now read the help... Some examples:
 
 	tuild -v # Print tuild version
 	
-	tuild css style1.css|style2.css > styles.min.css # Join all css in a minifield version
+	tuild css style1.css+style2.css > styles.min.css # Join all css in a minifield version
 	
-	tuild html -dev header.html|content.html|footer.html > page.html # This works like a template, but join all in one file :)
+	tuild html -dev header.html+content.html+footer.html > page.html # This works like a template, but join all in one file :)
 	
 	tuild js --watch folder/ scripts.min.js # Watch the folder and automatic update the scripts.min.js, when any changes are made
 
