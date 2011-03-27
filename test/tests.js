@@ -15,7 +15,7 @@ var Tuild = require('./../lib/tuild');
   */
 //Tuild.command('css --help');
 //Tuild.command('css -dev files/style1.css > build/styles.css');
-//Tuild.command('css -dev files/style1.css|files/style2.css > build/styles.css');
+//Tuild.command('css -dev files/style1.css+files/style2.css > build/styles.css');
 //Tuild.command('css -dev files/ > build/styles.css');
 //Tuild.command('css -min files/ > build/styles.css');
 //Tuild.command('css files/ > build/styles.css');
@@ -27,7 +27,7 @@ var Tuild = require('./../lib/tuild');
  */
 //Tuild.command('html --help');
 //Tuild.command('html -dev files/file1.html > build/file.html');
-//Tuild.command('html -dev files/file1.html|files/file2.html > build/file.html');
+//Tuild.command('html -dev files/file1.html+files/file2.html > build/file.html');
 //Tuild.command('html -dev files/ > build/file.html');
 //Tuild.command('html -min files/ > build/file.html');
 //Tuild.command('html files/ > build/file.html');
@@ -39,7 +39,7 @@ var Tuild = require('./../lib/tuild');
  */
 //Tuild.command('js --help');
 //Tuild.command('js -dev files/script1.js > build/scripts.js');
-//Tuild.command('js -dev files/script1.js|files/script2.js > build/scripts.js');
+//Tuild.command('js -dev files/script1.js+files/script2.js > build/scripts.js');
 //Tuild.command('js -dev files/ > build/scripts.js');
 //Tuild.command('js -min files/ > build/scripts.js');
 //Tuild.command('js files/ > build/scripts.js');
