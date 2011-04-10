@@ -1,4 +1,4 @@
-# Tuild
+# Tuild 1.0.2
 A easy and advanced build/minifier for JS, CSS and HTML.
 
 ### Installing
@@ -32,3 +32,9 @@ Tuild need JSHint (<https://github.com/jshint/jshint>) and UglifyJS (<https://gi
 ### License
 
 MIT and GPL License - <http://www.opensource.org/licenses/mit-license.php> || <http://www.gnu.org/licenses/gpl.html>
+
+### Changelog
+
+ * <b>1.0.2</b> - Fixed problems with path of the files
+ * <b>1.0.1</b> - Fixed problems with watch mode
+ * <b>1.0.0</b> - Initial
