@@ -24,7 +24,19 @@ Now read the help... Some examples:
 	tuild js --watch folder/ scripts.min.js # Watch the folder and automatic update the scripts.min.js, when any changes are made
 
 You can use Tuild via script language (NodeJS)... but I will not document this :P.
+
+<b>Windows users</b>
+You need run tuild in a js file, because command line dont work (and this is not tuild fault). Eg:
+
+build.js
+
+	#!/usr/bin/env node
 	
+	var Tuild = require('tuild').Tuild;
+	Tuild.command('css file.css file2.css');
+
+The script above works like a command line... to execute, type in terminal "node build.js".
+
 ### Dependencies
 
 Tuild need JSHint (<https://github.com/jshint/jshint>) and UglifyJS (<https://github.com/mishoo/UglifyJS>) to work completely. So you need this in you npm packages, if you download this module directly.
