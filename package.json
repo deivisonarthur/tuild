@@ -1,10 +1,10 @@
 {
     "name": "tuild",
     "version": "1.0.2",
-    "description": "A easy and advanced build/minifier for JS, CSS and HTML. The name is the join of This Build - tuild",
+    "description": "A easy and advanced build/minifier for JS, CSS and HTML. The name is the join of This & Build - tuild",
     "keywords": ["css", "js", "html", "build", "minifier", "compressor", "hint", "command"],
     "homepage": "https://github.com/mateus007/tuild",  
-    "author": "Mateus Souza <mateussouzaweb@gmail.com> (http://twitter.com/mateus_souzaweb)",
+    "author": "Mateus Souza <mateussouzaweb@gmail.com> (http://twitter.com/mateussouzaweb)",
      
     "main": "./lib/tuild.js",
     "bin": "./bin/tuild", 
