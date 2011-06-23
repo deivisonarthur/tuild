@@ -1,4 +1,4 @@
-# Tuild 1.0.2
+# Tuild 1.0.3
 A easy and advanced build/minifier for JS, CSS and HTML.
 
 ### Installing
