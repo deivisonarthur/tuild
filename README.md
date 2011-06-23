@@ -9,6 +9,16 @@ Type in terminal, with root privileges:
 
 Just that!
 
+### Make require('tuild') globally
+
+NPM dont make require() global, so, if you need tuild working globally (installing tuild in all projects is sucks) you need add it in your NODE_PATH:
+
+	cd ~ # Go to home folder
+	npm install tuild # yes, without -g flag
+	echo export NODE_PATH = $NODEPATH:$HOME/node_modules >> .bashrc
+
+Restart the terminal. Now, if you need another require in global scope, you just need install it in you home folder, like tuild.
+
 ### Usage
 Open the terminal in your aplication and type:
 	tuild -h
