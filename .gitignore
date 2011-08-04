@@ -1,3 +1,6 @@
-*.class
-*.pyc
-*.pyo
+.project
+.settings
+*.~
+*.*~
+.DS_Store
+test
