@@ -56,6 +56,7 @@ Tuild need JSHint (<https://github.com/jshint/jshint>) and UglifyJS (<https://gi
 MIT and GPL License - <http://www.opensource.org/licenses/mit-license.php> || <http://www.gnu.org/licenses/gpl.html>
 
 ### Changelog
+ * <b>1.0.4</b> - Best minify for HTML & Clean spaces
  * <b>1.0.3</b> - Force global installation + code cleanup
  * <b>1.0.2</b> - Fixed problems with path of the files
  * <b>1.0.1</b> - Fixed problems with watch mode
